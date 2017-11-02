@@ -1358,7 +1358,7 @@
 				height: 48px;
 				border-radius: 6px;
 				outline: 0;
-				background: #c1cac5;
+				background: #3b83b9;
 				text-align: center;
 			}
 
@@ -2503,7 +2503,7 @@
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background-color: rgba(21, 38, 23, 0.8);
+				background-color: rgba(21, 32, 38, 0.8);
 				background-image: url("images/overlay.png");
 			}
 
@@ -2664,4 +2664,22 @@
 
 	.item img {
 		margin: 0 auto;
+	}
+
+	.numbers span{
+		display: inline-block;
+	}
+
+	.numbers {
+		font-size: 33px !important;
+	}
+
+	@media screen and (max-width: 736px){
+		.numbers {
+			font-size: 20px !important;
+		}
+	}
+
+	#contacts h3{
+		font-size: 30px !important;
 	}
