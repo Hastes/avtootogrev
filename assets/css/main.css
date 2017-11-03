@@ -2678,8 +2678,20 @@
 		.numbers {
 			font-size: 20px !important;
 		}
+		#contacts h3{
+			font-size: 15px !important;
+		}
+
 	}
 
 	#contacts h3{
-		font-size: 30px !important;
+		font-size: 30px;
+	}
+
+	#contacts h3 strong {
+		display: inline-block;
+	}
+
+	.carousel-control {
+		border-radius: 10px;
 	}
